@@ -1,8 +1,8 @@
 "use client";
 
 import { useCallback } from "react";
-import type { FbEventOptions } from "../types";
-import { fbEvent } from "./fb-event";
+import type { FbEventOptions } from "../types.js";
+import { fbEvent } from "./fb-event.js";
 
 /**
  * React hook for tracking Facebook Pixel + CAPI events.

@@ -1,7 +1,7 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
-import type { FacebookEventData } from "../types";
-import { sendServerEvent } from "../server/capi-service";
+import type { FacebookEventData } from "../types.js";
+import { sendServerEvent } from "../server/capi-service.js";
 
 /**
  * Next.js App Router API route handler for Facebook Conversions API.

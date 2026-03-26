@@ -1,4 +1,4 @@
-import type { FacebookEventData } from "../types";
+import type { FacebookEventData } from "../types.js";
 
 const isDevelopment = process.env.NODE_ENV === "development";
 

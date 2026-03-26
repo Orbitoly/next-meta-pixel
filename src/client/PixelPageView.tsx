@@ -2,7 +2,7 @@
 
 import { usePathname, useSearchParams } from "next/navigation";
 import { Suspense, useEffect } from "react";
-import { trackPageView } from "./fb-pixel-client";
+import { trackPageView } from "./fb-pixel-client.js";
 
 function PixelPageViewContent() {
   const pathname = usePathname();

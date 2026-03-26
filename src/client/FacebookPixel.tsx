@@ -1,8 +1,8 @@
 "use client";
 
 import Script from "next/script";
-import { FB_PIXEL_ID } from "./fb-pixel-client";
-import { logPixelEvent, logPixelError, logPixelWarning } from "../utils/logger";
+import { FB_PIXEL_ID } from "./fb-pixel-client.js";
+import { logPixelEvent, logPixelError, logPixelWarning } from "../utils/logger.js";
 
 /**
  * Facebook Pixel script loader component.

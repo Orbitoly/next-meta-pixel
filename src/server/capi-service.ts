@@ -3,8 +3,8 @@ import type {
   FacebookUserData,
   FacebookCustomData,
   FacebookEventPayload,
-} from "../types";
-import { sendServerEventDev, isDevMode } from "./dev-capi-service";
+} from "../types.js";
+import { sendServerEventDev, isDevMode } from "./dev-capi-service.js";
 
 const FACEBOOK_API_VERSION = "v21.0";
 const FACEBOOK_API_BASE_URL = "https://graph.facebook.com";

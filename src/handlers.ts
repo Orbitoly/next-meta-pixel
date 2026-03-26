@@ -1,1 +1,1 @@
-export { fbEventsHandler } from "./handlers/fb-events-handler";
+export { fbEventsHandler } from "./handlers/fb-events-handler.js";

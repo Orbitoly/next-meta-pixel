@@ -1,10 +1,10 @@
 "use client";
 
-import type { FacebookEventData, FbEventOptions } from "../types";
-import { getFbCookies } from "../utils/cookies";
-import { generateUUID } from "../utils/uuid";
-import { logPixelEvent, logPixelError } from "../utils/logger";
-import { trackStandardEvent } from "./fb-pixel-client";
+import type { FacebookEventData, FbEventOptions } from "../types.js";
+import { getFbCookies } from "../utils/cookies.js";
+import { generateUUID } from "../utils/uuid.js";
+import { logPixelEvent, logPixelError } from "../utils/logger.js";
+import { trackStandardEvent } from "./fb-pixel-client.js";
 
 const DEFAULT_API_ROUTE = "/api/fb-events";
 
