@@ -1,0 +1,24 @@
+/**
+ * Tracks PageView events on every route change.
+ *
+ * Add this alongside `<FacebookPixel />` in your layout.
+ * Wrapped in Suspense to avoid hydration issues with `useSearchParams`.
+ *
+ * @example
+ * ```tsx
+ * // app/layout.tsx
+ * import { FacebookPixel, PixelPageView } from "next-meta-pixel";
+ *
+ * export default function RootLayout({ children }) {
+ *   return (
+ *     <html><body>
+ *       {children}
+ *       <FacebookPixel />
+ *       <PixelPageView />
+ *     </body></html>
+ *   );
+ * }
+ * ```
+ */
+export declare function PixelPageView(): import("react/jsx-runtime").JSX.Element;
+//# sourceMappingURL=PixelPageView.d.ts.map
